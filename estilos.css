@@ -1,0 +1,286 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fc;
+    color: #172b4d;
+    line-height: 1.7;
+}
+
+.pular {
+    position: absolute;
+    left: -9999px;
+    top: 10px;
+    background: white;
+    color: #102a56;
+    padding: 10px;
+    z-index: 10;
+}
+
+.pular:focus {
+    left: 10px;
+}
+
+header {
+    background-color: #102a56;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #7dd3fc;
+    text-decoration: underline;
+}
+
+.inicio {
+    background: linear-gradient(135deg, #102a56, #176b87);
+    color: white;
+    padding: 90px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.inicio-texto {
+    max-width: 650px;
+}
+
+.etiqueta {
+    color: #a5e8ff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.inicio h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.inicio p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.imagem {
+    font-size: 130px;
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #102a56;
+    padding: 13px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover,
+.botao:focus {
+    background-color: #dff5ff;
+    outline: 3px solid #ffffff;
+}
+
+.secao {
+    padding: 75px 9%;
+    text-align: center;
+}
+
+.secao h2,
+.exemplo h2,
+.acessibilidade h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #102a56;
+}
+
+.descricao {
+    margin: 0 auto 35px;
+    max-width: 650px;
+    color: #40516b;
+}
+
+.cartoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-top: 35px;
+}
+
+.cartao {
+    background-color: white;
+    padding: 30px;
+    border-radius: 13px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    text-align: left;
+    border: 1px solid #dce5f0;
+}
+
+.cartao h3 {
+    color: #145477;
+    margin: 10px 0;
+}
+
+.icone {
+    font-size: 38px;
+}
+
+.exemplo {
+    background-color: #e8f0fa;
+    padding: 75px 10%;
+    text-align: center;
+}
+
+.mensagem {
+    background-color: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    border-left: 6px solid #c2410c;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+.remetente {
+    color: #475569;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mensagem p {
+    margin: 18px 0;
+}
+
+.alerta {
+    color: #9a3412;
+    font-weight: bold;
+}
+
+.exemplo h3 {
+    margin: 25px 0 10px;
+    color: #102a56;
+}
+
+.exemplo ul,
+.acessibilidade ul {
+    max-width: 600px;
+    margin: 15px auto;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.destaque {
+    color: #145477;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.acessibilidade {
+    padding: 75px 10%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.acessibilidade p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.final {
+    background-color: #102a56;
+    color: white;
+    text-align: center;
+    padding: 55px 10%;
+}
+
+.final h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #091a35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+a:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 4px;
+}
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .inicio {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 7%;
+    }
+
+    .inicio h1 {
+        font-size: 32px;
+    }
+
+    .imagem {
+        font-size: 90px;
+    }
+
+    .cartoes {
+        grid-template-columns: 1fr;
+    }
+
+    .secao h2,
+    .exemplo h2,
+    .acessibilidade h2 {
+        font-size: 25px;
+    }
+}
