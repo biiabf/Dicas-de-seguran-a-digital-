@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta Seguro | Segurança Digital</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+    <header>
+        <div class="logo">🛡️ Conecta Seguro</div>
+
+        <nav aria-label="Menu principal">
+            <a href="#inicio">Início</a>
+            <a href="#golpes">Golpes</a>
+            <a href="#dicas">Dicas</a>
+            <a href="#acessibilidade">Acessibilidade</a>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+
+        <section class="inicio" id="inicio">
+            <div class="inicio-texto">
+                <span class="etiqueta">PROTEJA-SE NA INTERNET</span>
+                <h1>Sua segurança digital começa com a informação!</h1>
+
+                <p>
+                    Aprenda a identificar golpes, reconhecer mensagens
+                    suspeitas e proteger seus dados pessoais.
+                </p>
+
+                <a href="#golpes" class="botao">Aprender a se proteger</a>
+            </div>
+
+            <div class="imagem">
+                🔐
+            </div>
+        </section>
+
+        <section class="secao" id="golpes">
+            <h2>🚨 Como identificar golpes digitais?</h2>
+
+            <p class="descricao">
+                Algumas mensagens podem parecer verdadeiras,
+                mas escondem tentativas de golpe.
+                Fique atento aos sinais:
+            </p>
+
+            <div class="cartoes">
+
+                <article class="cartao">
+                    <div class="icone">🔗</div>
+                    <h3>Links desconhecidos</h3>
+                    <p>
+                        Desconfie de links enviados por desconhecidos
+                        ou que tenham endereços diferentes dos oficiais.
+                    </p>
+                </article>
+
+                <article class="cartao">
+                    <div class="icone">⏰</div>
+                    <h3>Falsa urgência</h3>
+                    <p>
+                        Mensagens que ameaçam bloquear sua conta
+                        imediatamente podem ser tentativas de golpe.
+                    </p>
+                </article>
+
+                <article class="cartao">
+                    <div class="icone">✉️</div>
+                    <h3>Remetentes estranhos</h3>
+                    <p>
+                        Verifique o endereço de quem enviou
+                        a mensagem antes de confiar.
+                    </p>
+                </article>
+
+                <article class="cartao">
+                    <div class="icone">🔑</div>
+                    <h3>Pedido de senhas</h3>
+                    <p>
+                        Nunca informe senhas ou códigos de
+                        verificação por mensagens suspeitas.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="exemplo">
+            <h2>⚠️ Exemplo de mensagem suspeita</h2>
+
+            <div class="mensagem">
+                <span class="remetente">Remetente desconhecido</span>
+
+                <p>
+                    "URGENTE! Sua conta será bloqueada hoje.
+                    Clique neste link para confirmar seus dados
+                    imediatamente!"
+                </p>
+
+                <span class="alerta">⚠️ Atenção: possível tentativa de golpe!</span>
+            </div>
+
+            <h3>O que há de errado nessa mensagem?</h3>
+
+            <ul>
+                <li>Utiliza uma ameaça para assustar o usuário.</li>
+                <li>Cria uma sensação de urgência.</li>
+                <li>Solicita uma ação por meio de um link suspeito.</li>
+                <li>Não apresenta um remetente confiável.</li>
+            </ul>
+
+            <p class="destaque">
+                Nunca clique! Procure o site ou aplicativo oficial
+                para verificar se existe algum problema.
+            </p>
+        </section>
+
+        <section class="secao" id="dicas">
+            <h2>🛡️ Dicas para se proteger</h2>
+
+            <div class="cartoes">
+
+                <article class="cartao">
+                    <div class="icone">🔍</div>
+                    <h3>Confira os links</h3>
+                    <p>Verifique o endereço antes de acessar qualquer página.</p>
+                </article>
+
+                <article class="cartao">
+                    <div class="icone">🔒</div>
+                    <h3>Proteja suas senhas</h3>
+                    <p>Crie senhas fortes e não compartilhe seus códigos.</p>
+                </article>
+
+                <article class="cartao">
+                    <div class="icone">📱</div>
+                    <h3>Mantenha seus aplicativos atualizados</h3>
+                    <p>As atualizações ajudam a corrigir falhas de segurança.</p>
+                </article>
+
+                <article class="cartao">
+                    <div class="icone">👨‍👩‍👧</div>
+                    <h3>Peça ajuda</h3>
+                    <p>Converse com alguém de confiança se receber algo suspeito.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="acessibilidade" id="acessibilidade">
+            <h2>♿ Segurança e acessibilidade para todos</h2>
+
+            <p>
+                Uma internet segura também precisa ser acessível.
+                Por isso, as informações devem ser simples,
+                organizadas e fáceis de compreender.
+            </p>
+
+            <ul>
+                <li>Textos com tamanho adequado para leitura.</li>
+                <li>Cores com bom contraste.</li>
+                <li>Ícones acompanhados de explicações.</li>
+                <li>Organização simples e fácil de navegar.</li>
+                <li>Compatibilidade com leitores de tela.</li>
+            </ul>
+        </section>
+
+        <section class="final">
+            <h2>💡 Lembre-se!</h2>
+            <p>
+                Na dúvida, não clique. Pense antes de compartilhar
+                seus dados e proteja sua vida digital!
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>🛡️ Conecta Seguro | Educação e Segurança Digital</p>
+        <p>Projeto desenvolvido para o curso UX e acessibilidade.</p>
+    </footer>
+
+</body>
+</html>
